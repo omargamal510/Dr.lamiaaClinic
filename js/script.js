@@ -40,7 +40,7 @@ $(document).ready(function () {
 
 $(function () {
     $(window).scroll(function () {
-        if ($(window).scrollTop() >= $('.feat').offset().top - 120) {
+        if ($(window).scrollTop() >= $('.feat').offset().top - 200) {
             $('.feat').animate({
                 opacity : 1,
             }, 1000);
@@ -51,7 +51,7 @@ $(function () {
 $(function () {
     $('.slider button').click(function () {
         $('html, body').animate({
-            scrollTop : $('.feat').offset().top - 120
+            scrollTop : $('.feat').offset().top - 200
         }, 1000)
     });
 });
@@ -60,7 +60,7 @@ $(function () {
 $(function () {
     $('.featBttn').click(function () {
         $('html, body').animate({
-            scrollTop : $('.feat').offset().top - 120
+            scrollTop : $('.feat').offset().top - 200
         }, 1000)
     });
 });
@@ -70,15 +70,27 @@ $(function () {
 /* End Features */
 
 
+/* Start Features */
+
+
+
+$(function () {
+    $('.clinichBttn').click(function () {
+        $('html, body').animate({
+            scrollTop : $('.clinic-hours').offset().top - 200
+        }, 1000)
+    });
+});
+
+
 /* Start About us */
 $(function () {
     $('.aboutBttn').click(function () {
         $('html, body').animate({
             scrollTop : $('.about').offset().top - 100
-        }, 1000)
+        }, 1000);
     });
 });
-
 
 /* End About us */
 
@@ -122,3 +134,30 @@ $(function () {
 });
 
 /* End Contact */
+
+
+
+/* Start Switch language */
+$(document).ready(function () {
+    $('.switch-ar').click(function () {
+        $('body').css({direction: "rtl"});
+        $('nav .main-ul li, nav h1.div-ar').css({float:"right"});
+        $('nav button.div-ar, .main-ul').css({float: "left"});
+        $('.div-ar').css({display:"block"});
+        $('.div-en').css({display: "none"});
+        $('.switch-ar').css({display:"none"});
+        $('.switch-en').css({display:"block"});
+    });
+
+    $('.switch-en').click(function () {
+        $('body').css({direction: "ltr"});
+        $('nav .main-ul li, nav h1.div-ar').css({float:"left"});
+        $('nav button.div-ar, .main-ul').css({float: "right"});
+        $('.div-ar').css({display:"none"});
+        $('.div-en').css({display: "block"});
+        $('.switch-ar').css({display:"block"});
+        $('.switch-en').css({display:"none"});
+    });
+});
+
+/* End Switch Language */

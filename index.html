@@ -461,9 +461,11 @@
                 $('body').css('overflow-y',' visible');
             });
 
-            var sliderH1 = document.querySelector('.slider-h1');
+            var sliderH1 = document.querySelectorAll('.slider-h1');
             function sliderH1Load() {
-                sliderH1.setAttribute('style', 'margin-left:0;opacity:1;');
+                for (var i = 0; i < sliderH1.length; i++) {
+                    sliderH1[i].setAttribute('style', 'margin-left:0;opacity:1;');
+                }
             } addEventListener('load', sliderH1Load);
         </script>
     </body>

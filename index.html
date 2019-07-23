@@ -4,13 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ICONS</title>
-        <link rel="icon" href="https://imgur.com/FIl1GB9.png"/>
+        <meta name="description" content="">
+        <title>Dr lamiaa clinic</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=El+Messiri&amp;display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -19,6 +18,9 @@
         <button class="scrolltop">
             <i class="fa fa-angle-up"></i>
         </button>
+
+        <button class="switch-lang switch-ar">ع</button>
+        <button class="switch-lang switch-en">EN</button>
         <!-- Buttons -->
         <!-- Start Loader -->
         <div class="load">
@@ -30,35 +32,68 @@
 
         <!-- Start Navbar -->
         <nav id="nav">
-            <h1><a href="#"><i class="fa fa-user-md"></i> Dr Lamiaa clinic</a></h1>
-            <ul class="main-ul hidden-xs hidden-sm">
+            <h1 class="div-en"><a href="#"><i class="fa fa-user-md"></i> Dr Lamiaa clinic</a></h1>
+            <h1 class="div-ar"><a href="#"><i class="fa fa-user-md"></i> عياده د.لمياء</a></h1>
+            <ul class="main-ul hidden-xs hidden-sm div-en">
                 <li><a class="homeBttn" href="#">Home <hr></a></li>
                 <li><a class="featBttn" href="#">Features <hr></a></li>
-                <li><a class="aboutBttn" href="#">About us <hr></a></li>
+                <li><a class="clinichBttn" href="#">Clinic hours <hr></a></li>
+                <li><a class="aboutBttn" href="#">About me <hr></a></li>
                 <li><a class="servBttn"  href="#">Services <hr></a></li>
-                <li><a class="packagesBttn" href="#">Packages <hr></a></li>
                 <li><a class="contactBttn" href="#">Contact <hr></a></li>
             </ul>
 
-            <button class="bars hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
+            <ul class="main-ul hidden-xs hidden-sm div-ar">
+                <li><a class="homeBttn" href="#">الرئيسيه <hr></a></li>
+                <li><a class="featBttn" href="#">المميزات <hr></a></li>
+                <li><a class="clinichBttn" href="#">ساعات العمل <hr></a></li>
+                <li><a class="aboutBttn" href="#">عني <hr></a></li>
+                <li><a class="servBttn"  href="#">الخدمات <hr></a></li>
+                <li><a class="contactBttn" href="#">اتصل بي <hr></a></li>
+            </ul>
+
+            <button class="div-en bars hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
+            <button class="div-ar bars hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
 
         </nav>
         <ul class="sm-ul hidden-md hidden-lg">
-            <li><a class="homeBttn" href="#">Home</a></li>
-            <li><a class="featBttn" href="#">Features</a></li>
-            <li><a class="aboutBttn" href="#">About us</a></li>
-            <li><a class="servBttn" href="#">Services</a></li>
-            <li><a class="packagesBttn" href="#">Packages</a></li>
-            <li><a class="contactBttn" href="#">Contact </a></li>
+            <div class="div-en">
+                <li><a class="homeBttn" href="#">Home</a></li>
+                <li><a class="featBttn" href="#">Features</a></li>
+                <li><a class="aboutBttn" href="#">Clinic hours</a></li>
+                <li><a class="aboutBttn" href="#">About us</a></li>
+                <li><a class="servBttn" href="#">Services</a></li>
+                <li><a class="contactBttn" href="#">Contact </a></li>
+            </div>
+
+            <div class="div-ar">
+                <li><a class="homeBttn" href="#">الرئيسيه</a></li>
+                <li><a class="featBttn" href="#">المميزات</a></li>
+                <li><a class="clinichBttn" href="#">ساعات العمل</a></li>
+                <li><a class="aboutBttn" href="#">عني</a></li>
+                <li><a class="servBttn" href="#">الخدمات</a></li>
+                <li><a class="contactBttn" href="#">اتصل بي </a></li>
+            </div>
         </ul>
+
         <!-- End Navbar -->
 
         <!-- Start Slider -->
         <div class="slider">
             <div class="slider-opacity">
-                <h1 class="slider-h1"><!--His text in js --></h1>
-                <hr>
-                <p><span>ICONS</span> For the treatment of dermatology and laser </p>
+
+                <div class="div-en div-slider">
+                    <h1 class="slider-h1">Solutions of your skin problems starts here</h1>
+                    <hr>
+                    <p><span>Dr lamiaa clinic</span> For the treatment of dermatology and laser </p>
+                </div>
+
+                <div class="div-ar div-slider">
+                    <h1 class="slider-h1">حلول جميع مشاكلك الجلديه يبدأ من هنا</h1>
+                    <hr>
+                    <p><span>د.لمياء</span> لعلاج الأمراض الجلدية والليزر</p>
+                </div>
+
                 <button><i class="fa fa-angle-down"></i></button>
             </div>
         </div>
@@ -69,13 +104,28 @@
             <div class="container">
                 <div class="row">
 
-                    <h2>Why choose us ? <hr></h2>
+                    <div class="div-en">
+                      <h2>Why choose us ? <hr></h2>
+                    </div>
+
+                    <div class="div-ar">
+                      <h2>لماذا نحن ؟<hr></h2>
+                    </div>
+
                     <div class="col-xs-12 col-sm-4">
                         <section>
                             <article>
                                 <i class="fa fa-bullhorn"></i>
-                                <h3>High Quality Teatment</h3>
-                                <p>Lorem Ipsum is simply dumy text of the printing and typeseing industry.</p>
+                                <div class="div-en">
+                                    <h3>High Quality Teatment</h3>
+                                    <p>Looking for high treatment ! then you are in the best place for that</p>
+                                </div>
+
+                                <div class="div-ar">
+                                    <h3>جوده علاجيه عاليه</h3>
+                                    <p>تبحث عن الجوده العلاجيه العاليه ! اذن فأنت في المكان الافضل لهذا</p>
+                                </div>
+
                             </article>
                         </section>
                     </div>
@@ -84,8 +134,15 @@
                         <section >
                             <article>
                                 <i class="fa fa-credit-card"></i>
-                                <h3>Fast Teatment</h3>
-                                <p>Lorem Ipsum is simply dumy text of the printing and typeseing industry.</p>
+                                <div class="div-en">
+                                    <h3>Fast Teatment</h3>
+                                    <p>We provide fast treatment in order to satisfy our patient</p>
+                                </div>
+
+                                <div class="div-ar">
+                                    <h3>علاج سريع</h3>
+                                    <p>نحن نقدم السرعه في العلاج والمتابعه الفوريه في سبيل ارضاء المريض</p>
+                                </div>
                             </article>
                         </section>
                     </div>
@@ -94,8 +151,15 @@
                         <section>
                             <article>
                                 <i class="fa fa-check-circle"></i>
-                                <h3>Credibility</h3>
-                                <p>Lorem Ipsum is simply dumy text of the printing and typeseing industry.</p>
+                                <div class="div-en">
+                                    <h3>Credibility</h3>
+                                    <p>Credibility is our main value here and it's priority</p>
+                                </div>
+
+                                <div class="div-ar">
+                                    <h3>المصداقيه</h3>
+                                    <p>المصداقيه هنا هي قيمتنا الاساسيه وهي تعتبر اولويه هنا</p>
+                                </div>
                             </article>
                         </section>
                     </div>
@@ -113,12 +177,35 @@
 
                     <div class="col-xs-12 col-md-6">
                         <div class="clinic-hours-left">
-                            <h2>Clinic hours</h2>
-                            <h3>Open <span>7 Days</span> A Week</h3>
-                            <p>Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum Lo Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum </p>
+                            <div class="div-en">
+                                <h2>Clinic hours</h2>
+                                <h3>Open <span>7 Days</span> A Week</h3>
+                                <p>Clinic is available 7 days a week from 7pm to 11pm to Book a for A medical except thursday clinic are open from 2pm to 5pm </p>
 
-                            <h2>Location</h2>
-                            <p>Al tayar building - beside AL Tawhed & Al Nour - Tersa - Haram</p>
+                                <section>
+                                    <h2 class="marg"> The price of medical examination   </h2>
+                                    <p class="marg"> Booking price of 150 L.E and consultation 30 L.E  </p>
+                                </section>
+
+                                <h2>Location</h2>
+                                <p>Al tayar building - beside AL Tawhed & Al Nour - Tersa - Haram</p>
+                            </div>
+
+                            <div class="div-ar">
+                                <h2>ساعات العمل في العياده</h2>
+                                <h3>العياده مفتوحه <span>٧ ايام  </span> في الاسبوع</h3>
+                                <p>العيادة متاحة ٧ أيام في الأسبوع من الساعة ٧ مساءً إلى الساعة ١١  مساءً للحجز في العياده والكشف ما عدا  يوم الخميس من الساعة ٢ مساءً وحتى الساعة ٥ مساءً</p>
+
+                                <section>
+                                    <h2 class="marg">سعر الكشف </h2>
+                                    <p class="marg"> سعر حجز الكشف ١٥٠ج والاستشاره ٣٠ج  </p>
+                                </section>
+
+                                <h2>العنوان</h2>
+                                <p>برج الطيار - بجانب التوحيد والنور - ترسا - الهرم</p>
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -141,25 +228,49 @@
                 <div class='container'>
                     <div class="row">
 
-                        <h2>who am I ? <hr></h2>
+                        <div class="div-en">
+                            <h2>who am I ? <hr></h2>
+                        </div>
+
+                        <div class="div-ar">
+                            <h2>من انا ؟ <hr></h2>
+                        </div>
 
                         
                         <div class='about1 col-xs-12 col-md-6'>
                             <section class="about1-section">
-                                <h3>Dr. Lamia clinic</h3>
-                                <p>
-                                   - Dr. Lamiaa Hosny Gharib <br> <br>
-                                   - Specialist at dermatology and cosmetology Ms dermatology <br> <br>
-                                   - Graduted from cairo university (Al kasr el aini). <br> <br>
-                                </p>
-                            </section>
 
-                            <section class="about-cert">
-                                <p>
-                                    <i class="fa fa-check"></i> Diploma in dermatology and veneroelogy <br><br>
-                                    <i class="fa fa-check"></i> Master dermatology and veneroelogy<br><br>
-                                    <i class="fa fa-check"></i> M.B.B CH medicine and surgery <br><br>
-                                </p>
+                                <div class="about-en div-en">
+                                    <h3>Dr. Lamia clinic</h3>
+                                    <p class="aboutP">
+                                       - Dr. Lamiaa Hosny Gharib <br> <br>
+                                       - Specialist at dermatology and cosmetology Ms dermatology <br> <br>
+                                       - Graduated from cairo university (Al kasr al ainy). <br>
+                                    </p>
+    
+                                    <p class="about-cert">
+                                        <i class="fa fa-check"></i> Diploma in dermatology and veneroelogy <br><br>
+                                        <i class="fa fa-check"></i> M.B.B CH medicine and surgery <br><br>
+                                        <i class="fa fa-check"></i> Master dermatology and veneroelogy<br><br>
+                                    </p>
+                                </div>
+
+
+                                <div class="about-ar div-ar">
+                                    <h3>عياده د.لمياء</h3>
+                                    <p class="aboutP">
+                                       - د.لمياء حسني غريب <br> <br>
+                                       - أخصائي في الأمراض الجلدية والتجميل <br> <br>
+                                       - تخرج من جامعة القاهرة (القصر العيني). <br>
+                                    </p>
+    
+                                    <p class="about-cert">
+                                        <i class="fa fa-check"></i> دبلوم في الأمراض الجلدية والتناسلية <br><br>
+                                        <i class="fa fa-check"></i> بكالوريوس الطب والجراحة <br><br>
+                                        <i class="fa fa-check"></i> ماجستير الأمراض الجلدية والتناسلية<br><br>
+                                    </p>
+                                </div>
+
                             </section>
                         </div>
 
@@ -184,7 +295,7 @@
                     <h2>Services Provided <hr></h2>
 
                     <div class="col-xs-12 col-md-4">
-                        <div class="serv">
+                        <div class="serv div-en">
                             <div class="servleft">
                                 1
                             </div>
@@ -192,13 +303,22 @@
                                 Peeling,botox,filler
                                 <hr>
                             </h3>
+                        </div>
 
-                            <p>Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum</p>
+                        <div class="serv div-ar">
+                            <div class="servleft">
+                                ١
+                            </div>
+                            <h3>
+                        تقشير، بوتوكس، حشو          
+                                <hr>
+                            </h3>
+
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-md-4">
-                        <div class="serv">
+                        <div class="serv div-en">
                             <div class="servleft">
                                 2
                             </div>
@@ -207,12 +327,22 @@
                                 <hr>
                             </h3>
 
-                            <p>Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum</p>
+                        </div>
+
+                        <div class="serv div-ar">
+                            <div class="servleft">
+                                ٢
+                            </div>
+                            <h3>
+                                ليزر
+                                <hr>
+                            </h3>
+
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-md-4">
-                        <div class="serv">
+                        <div class="serv div-en">
                             <div class="servleft">
                                 3
                             </div>
@@ -220,13 +350,21 @@
                                 Mesotherapy injection
                                 <hr>
                             </h3>
+                        </div>
 
-                            <p>Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum</p>
+                        <div class="serv div-ar">
+                            <div class="servleft">
+                                ٣
+                            </div>
+                            <h3>
+                                علاج تجميلي طبي
+                                <hr>
+                            </h3>
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-md-6">
-                        <div class="serv">
+                        <div class="serv div-en">
                             <div class="servleft">
                                 4
                             </div>
@@ -234,13 +372,21 @@
                                 Carboxytherapy
                                 <hr>
                             </h3>
+                        </div>
 
-                            <p>Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum</p>
+                        <div class="serv div-ar">
+                            <div class="servleft">
+                                ٤ 
+                            </div>
+                            <h3>
+                                    الحقن بالأوكسجين  
+                                <hr>
+                            </h3>
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-md-6">
-                        <div class="serv">
+                        <div class="serv div-en">
                             <div class="servleft">
                                 5
                             </div>
@@ -248,8 +394,16 @@
                                 Threads
                                 <hr>
                             </h3>
-
-                            <p>Lorem ipsum asa53 Lorem ipsum L323232orem ipsum Lorem ipsum Lorem ipsum</p>
+                        </div>
+                        
+                        <div class="serv div-ar">
+                            <div class="servleft">
+                                ٥ 
+                            </div>
+                            <h3>
+                                الخطوط
+                                <hr>
+                            </h3>
                         </div>
                     </div>
 
@@ -266,13 +420,25 @@
         <!-- Start Contact -->
         <div class="contact">
             <div class="contact-opacity">
-                <h2>Contact Me <hr></h2>
+                <div class="div-en">
+                    <h2>Contact Me <hr></h2>
 
-                <p class="location"> <i class="fa fa-map-marker"></i> Al tayar building - beside AL Tawhed & Al Nour - Tersa - Haram</p>
+                    <p class="location"> <i class="fa fa-map-marker"></i> Al tayar building - beside AL Tawhed & Al Nour - Tersa - Haram</p>
 
-                <p class="phone"> <i class="fa fa-phone"></i> 01060442984 - 01060238003</p>
+                    <p class="phone"> <i class="fa fa-phone"></i> 01060442984 - 01060238003</p>
 
-                <p class="facebook-page"> <i class="fa fa-facebook"></i> - <a href="https://www.facebook.com/dr.lmiaa.hosni/" target="_blank">Dr. Lamiaa page</a></p>
+                    <p class="facebook-page"> <i class="fa fa-facebook"></i> - <a href="https://www.facebook.com/dr.lmiaa.hosni/" target="_blank">Dr. Lamiaa page</a></p>
+                </div>
+
+                <div class="div-ar">
+                    <h2>اتصل بي <hr></h2>
+
+                    <p>برج الطيار - بجانب التوحيد والنور - ترسا - الهرم</p>
+
+                    <p class="phone"> <i class="fa fa-phone"></i> 01060442984 - 01060238003</p>
+
+                    <p class="facebook-page"> <i class="fa fa-facebook"></i> - <a href="https://www.facebook.com/dr.lmiaa.hosni/" target="_blank">صفحه د.لمياء علي الفيس بوك</a></p>
+                </div>
 
 
             </div>
@@ -281,7 +447,8 @@
 
         <!-- Start Footer -->
         <footer>
-            <p> &copy; Copyright ICONS 2018</p>
+            <p class="div-en"> &copy; Copyright Dr lamiaa clinic 2018</p>
+            <p class="div-ar"> &copy; جميع الحقوق محفوظة لعيادة دكتور لمياء 2018</p>
         </footer>
         <!-- End Footer -->
 
@@ -293,26 +460,11 @@
                 $('.load').delay(1000).fadeOut();
                 $('body').css('overflow-y',' visible');
             });
+
+            var sliderH1 = document.querySelector('.slider-h1');
+            function sliderH1Load() {
+                sliderH1.setAttribute('style', 'margin-left:0;opacity:1;');
+            } addEventListener('load', sliderH1Load);
         </script>
-        <script>
-            /* Start Slider in js */
-            var sliderText = "Solutions of your skin problems starts here";
-            var counterSlider = 0;
-    
-            function textWriter() {
-                var typeWriter = setInterval(function () {
-                    var sliderH1 = document.querySelector('.slider-h1').textContent += sliderText[counterSlider]
-                    counterSlider++;
-    
-                    if (counterSlider > sliderText.length - 1) {
-                        clearInterval(typeWriter);
-                    }
-    
-                }, 100);
-    
-            } addEventListener('load', textWriter);
-    
-            /* End Slider in js */
-            </script>
     </body>
 </html>
